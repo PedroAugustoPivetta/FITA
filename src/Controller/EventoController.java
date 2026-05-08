@@ -9,7 +9,7 @@ public class EventoController {
         EventoView eventoView = new EventoView();
         switch (eventoView.Menu()){
             case "1":
-                EventoModel eventoModel = new EventoModel(eventoView.Evento());
+                EventoModel eventoModel = new EventoModel(eventoView.CriarEvento());
         }
     }
 }

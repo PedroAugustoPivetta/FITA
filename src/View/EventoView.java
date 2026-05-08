@@ -13,7 +13,7 @@ public class EventoView {
         return escolha;
     }
 
-    public String[] Evento() {
+    public String[] CriarEvento() {
         System.out.println("QUAL A LOTAÇÃO MÁXIMA DO EVENTO?");
         String lotacao = scanner.nextLine();
 
